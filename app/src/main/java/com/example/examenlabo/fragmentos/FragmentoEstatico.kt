@@ -1,11 +1,11 @@
-package com.example.examenlabo
+package com.example.examenlabo.fragmentos
 
 import android.content.Context
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
+import com.example.examenlabo.R
 import kotlinx.android.synthetic.main.fragment_fragmento_estatico.view.*
 import java.lang.RuntimeException
 
@@ -56,7 +56,8 @@ class FragmentoEstatico : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?) =
-        inflater.inflate(R.layout.fragment_fragmento_estatico,
+        inflater.inflate(
+            R.layout.fragment_fragmento_estatico,
             container, false).apply {
             boton_prev.apply {
                 text = action1

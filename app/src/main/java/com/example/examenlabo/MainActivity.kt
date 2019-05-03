@@ -2,11 +2,12 @@ package com.example.examenlabo
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
+import com.example.examenlabo.fragmentos.ContentFragment
+import com.example.examenlabo.fragmentos.FragmentoEstatico
 
 class MainActivity : AppCompatActivity(), FragmentoEstatico.OnSelectOption {
 
-    //YA MORI
+    //YA MORI, esperen
 
     override fun onAction(id: Int) {
         var content = when (id) {
