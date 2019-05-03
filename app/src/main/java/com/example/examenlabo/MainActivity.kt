@@ -16,9 +16,6 @@ class MainActivity : AppCompatActivity(), FragmentoEstatico.OnSelectOption {
             2 -> {
                 "Hola, se que esto no funciono, pero al menos es un evento"
             }
-            3 -> {
-                "Bye"
-            }
             else -> {
                 "Fuck!"
             }
